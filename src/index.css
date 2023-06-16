@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+:root {
+	--first-color: #ff7315;
+	--second-color: #3a3535;
+	--title-color: #f4f4f4;
+	--background-color: #232020;
+	--white-color: #ffffff;
+	--red-color: #ff0000;
+
+	--body-font: "Poppins", sans-serif;
+	--second-font: "Open Sans", sans-serif;
+
+	--h1-font-size: 3.125rem;
+	--h1-half-font-size: 2.5rem;
+	--h2-font-size: 2rem;
+	--h3-font-size: 1.5rem;
+
+	--tiny-font-size: 0.75rem;
+	--small-font-size: 0.9375rem;
+	--normal-font-size: 1rem;
+	--large-font-size: 1.125rem;
+	--big-font-size: 3.5rem;
+
+	--weight-400: 400;
+	--weight-500: 500;
+	--weight-600: 600;
+	--weight-700: 700;
+	--weight-800: 800;
+}
+
+/* <---------- Reusable styles ----------> */
+
+.grid {
+	display: grid;
+}
